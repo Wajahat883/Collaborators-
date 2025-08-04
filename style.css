@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url('library.jpg'); */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 500px;
+  }
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+   
+}
+.main-navigation{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    padding: 13px 13px 13px 13px;
+    border-radius: 4px;
+    
+    gap: 10px;
+}
+.find-books{
+display: flex;
+align-items: center;
+gap: 2px;
+
+}
+.input-feild{
+    padding: 6px ;
+   
+}
+a{
+    text-decoration:none ;
+    color: white;
+}
+.search-button{
+    width: 25px;
+    height: 24px;
+}
+.books{
+    
+    width: 80px;
+    height: 70px;
+    border-radius: 5px;
+}
