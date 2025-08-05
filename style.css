@@ -23,16 +23,21 @@ body {
 .main-navigation {
   display: flex;
   list-style: none;
-  background-color: rgb(105, 207, 22);
-  padding: 13px 13px 13px 13px;
-  border-radius: 4px;
+  /* background-color: rgb(105, 207, 22); */
+  /* padding: 13px 13px 13px 13px; */
+  gap: 13px;
 
-  gap: 10px;
+  border-radius: 4px;
 }
 .find-books {
   display: flex;
   align-items: center;
   gap: 2px;
+}
+.main-navigation li {
+  background-color: sandybrown;
+  padding: 10px;
+  border-radius: 3px;
 }
 .input-feild {
   padding: 6px;
